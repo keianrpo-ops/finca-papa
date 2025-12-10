@@ -21,7 +21,7 @@ const Features: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <FeatureCard icon="fas fa-tree" title="Alta Producción Frutal">
-                        500 Árboles de Naranja, 400 de Mandarina, 600 de Cacao, 20 de Limón y 800 matas de Pitaya listas para cosecha.
+                        400 Árboles de Naranja, 40 de Mandarina, 600 de Cacao, 20 de Limón y 800 matas de Pitaya listas para cosecha.
                     </FeatureCard>
                     <FeatureCard icon="fas fa-water" title="Abundancia de Agua">
                         Agua propia de nacimiento y servicio de acueducto. Garantía hídrica para cultivos, animales y consumo.
