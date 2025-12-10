@@ -14,15 +14,15 @@ const Description: React.FC = () => {
                         />
                     </div>
                     <div className="lg:w-1/2 w-full">
-                        <h2 className="text-4xl font-extrabold text-gray-800 mb-4">Un Legado de Prosperidad y Tranquilidad</h2>
+                        <h2 className="text-4xl font-extrabold text-gray-800 mb-4">Un Negocio Rentable y un Hogar Soñado</h2>
                         <p className="text-gray-600 mb-4 text-lg">
-                            Ubicada a pocos kilómetros de Uribe, en el corazón del Valle, esta finca no es solo una propiedad, es un proyecto de vida. Imagínese despertar cada mañana con vistas panorámicas a las majestuosas montañas, respirar el aire puro y escuchar el sonido de la naturaleza.
+                            Esta finca de <strong>11 cuadras</strong>, ubicada estratégicamente cerca de Uribe, Valle, es una joya agrícola en plena producción. No es solo tierra; es una empresa funcionando. Cuenta con una impresionante variedad de cultivos establecidos: <strong>600 árboles de Cacao</strong>, <strong>500 árboles de Naranja</strong> (más 50 matas adicionales), <strong>400 de Mandarina</strong>, 20 de Limón y un cultivo tecnificado de <strong>800 matas de Pitaya</strong>.
                         </p>
                         <p className="text-gray-600 mb-4 text-lg">
-                            Con 11 cuadras de tierra productiva, la finca está lista para generar ingresos desde el primer día gracias a sus 5,000 matas de plátano en plena producción y un lago de peces listo para la acuicultura. Las casas construidas ofrecen comodidad y un estilo de vida campestre auténtico, con amplios corredores para disfrutar del paisaje y la brisa fresca.
+                            La seguridad hídrica es total, contando con <strong>agua propia de nacimiento</strong> y agua de acueducto. Además de la agricultura, la finca está equipada para la explotación pecuaria: posee un <strong>lago de peces productivo</strong>, marraneras, galpones y potreros con pasto suficiente para sostener entre 5 y 7 cabezas de ganado.
                         </p>
                         <p className="text-gray-600 text-lg font-semibold">
-                            Esta es una oportunidad única para invertir en un negocio rentable, asegurar un patrimonio para su familia y vivir en el paraíso.
+                            La propiedad incluye una casa principal espaciosa, con cocina amplia, múltiples habitaciones y corredores para disfrutar de la vista. Es la inversión perfecta para quien busca rentabilidad inmediata y calidad de vida.
                         </p>
                     </div>
                 </div>

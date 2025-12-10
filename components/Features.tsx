@@ -7,30 +7,30 @@ const FeatureCard: React.FC<{ icon: string; title: string; children: React.React
             <i className={icon}></i>
         </div>
         <h3 className="text-2xl font-bold text-gray-800 mb-2">{title}</h3>
-        <p className="text-gray-600">{children}</p>
+        <p className="text-gray-600 text-sm md:text-base">{children}</p>
     </div>
 );
 
 const Features: React.FC = () => {
     return (
-        <section id="features" className="py-20 bg-green-50">
+        <section id="features" className="py-20 bg-green-700">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-extrabold text-gray-800">Una Inversión para la Vida</h2>
-                    <p className="text-lg text-gray-600 mt-2">Descubra todo lo que esta magnífica propiedad tiene para ofrecer.</p>
+                    <h2 className="text-4xl font-extrabold text-white">Riqueza Productiva y Natural</h2>
+                    <p className="text-lg text-green-200 mt-2">Una finca autosostenible con múltiples fuentes de ingreso.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <FeatureCard icon="fas fa-mountain-sun" title="11 Cuadras de Tierra Fértil">
-                        Extenso terreno para expandir sus proyectos agrícolas o disfrutar de la inmensidad de la naturaleza.
+                    <FeatureCard icon="fas fa-tree" title="Alta Producción Frutal">
+                        500 Árboles de Naranja, 400 de Mandarina, 600 de Cacao, 20 de Limón y 800 matas de Pitaya listas para cosecha.
                     </FeatureCard>
-                    <FeatureCard icon="fas fa-house-chimney" title="Casas Construidas">
-                        Espaciosas y acogedoras viviendas listas para habitar, perfectas para su familia y trabajadores.
+                    <FeatureCard icon="fas fa-water" title="Abundancia de Agua">
+                        Agua propia de nacimiento y servicio de acueducto. Garantía hídrica para cultivos, animales y consumo.
                     </FeatureCard>
-                    <FeatureCard icon="fas fa-seedling" title="5,000 Matas de Plátano">
-                        Un cultivo en plena producción que garantiza un retorno de inversión y un negocio estable.
+                    <FeatureCard icon="fas fa-piggy-bank" title="Instalaciones Pecuarias">
+                        Infraestructura lista: Marraneras, galpones para aves, potreros para 5-7 animales y lago de peces productivo.
                     </FeatureCard>
-                    <FeatureCard icon="fas fa-fish-fins" title="Lago de Peces de Cultivo">
-                        Una fuente adicional de ingresos y un hermoso atractivo natural para la acuicultura.
+                    <FeatureCard icon="fas fa-house-chimney-window" title="Vivienda y Terreno">
+                        11 Cuadras de tierra fértil con casa principal cómoda, cocina amplia, habitaciones múltiples y miradores.
                     </FeatureCard>
                 </div>
             </div>
