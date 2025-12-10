@@ -21,18 +21,28 @@ const Description: React.FC = () => {
                             </p>
                         </div>
 
-                        <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Un Negocio Rentable y un Hogar Soñado</h2>
+                        <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Un Negocio Rentable, Seguro y Productivo</h2>
                         <p className="text-gray-600 mb-4 text-lg">
-                            Ubicada estratégicamente a pocos kilómetros de Uribe, Valle, esta finca es una joya agrícola en plena producción. No es solo tierra; es una empresa funcionando. Cuenta con una impresionante variedad de cultivos establecidos, destacándose <strong>5.000 matas de Plátano</strong> y <strong>600 árboles de Cacao</strong>.
+                            Ubicada estratégicamente a pocos kilómetros de Uribe, Valle, esta finca es una joya agrícola en plena producción. El cultivo protagonista es el <strong>Banano, con 5.000 matas establecidas</strong>, acompañado de cultivos de plátano en menor escala y <strong>600 árboles de Cacao</strong> generando rentabilidad constante.
                         </p>
                         <p className="text-gray-600 mb-4 text-lg">
-                            La riqueza frutal incluye <strong>400 árboles de Naranja</strong>, <strong>40 de Mandarina</strong>, <strong>20 de Limón</strong>, cultivos de <strong>Aguacate</strong> y un cultivo tecnificado de <strong>800 matas de Pitaya</strong>.
+                            La diversidad frutal es impresionante: <strong>400 árboles de Naranja</strong>, <strong>40 de Mandarina</strong>, <strong>20 de Limón</strong>, cultivos de <strong>Aguacate</strong> y <strong>800 matas de Pitaya</strong> listas para cosecha.
                         </p>
+                        
+                        <div className="bg-gray-100 p-4 rounded-lg border-l-4 border-gray-800 mb-4">
+                            <h4 className="font-bold text-gray-800 flex items-center gap-2">
+                                <i className="fas fa-video text-red-600"></i> Tecnología y Seguridad
+                            </h4>
+                            <p className="text-gray-700 mt-1">
+                                La propiedad cuenta con un <strong>completo sistema de vigilancia de 15 cámaras</strong> de seguridad instaladas. Usted podrá tener control visual total de los accesos, los cultivos y las instalaciones desde la comodidad de la casa principal, garantizando tranquilidad para su inversión y su familia.
+                            </p>
+                        </div>
+
                         <p className="text-gray-600 mb-4 text-lg">
-                            La seguridad hídrica es total, contando con <strong>agua propia de nacimiento</strong> y agua de acueducto. Además de la agricultura, la finca está equipada para la explotación pecuaria: posee un <strong>lago de peces productivo</strong>, marraneras, galpones y potreros con pasto suficiente para sostener entre 5 y 7 cabezas de ganado.
+                            La seguridad hídrica es total con <strong>agua propia de nacimiento</strong> y acueducto. Además, posee infraestructura pecuaria completa: <strong>lago de peces</strong>, marraneras, galpones y potreros para ganado.
                         </p>
                         <p className="text-gray-600 text-lg font-semibold">
-                            La propiedad incluye una casa principal espaciosa, con cocina amplia, múltiples habitaciones y corredores para disfrutar de la vista. Es la inversión perfecta para quien busca rentabilidad inmediata y calidad de vida.
+                            Incluye una casa principal espaciosa, con cocina amplia, múltiples habitaciones y corredores para disfrutar de la vista. Es la inversión perfecta: productiva, segura y placentera.
                         </p>
                     </div>
                 </div>
