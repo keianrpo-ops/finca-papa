@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
                     No deje pasar esta increíble oportunidad. Contáctenos hoy mismo para agendar una visita y enamórese de su nuevo proyecto de vida.
                 </p>
                 <a 
-                    href="https://wa.me/573001234567?text=Hola,%20estoy%20interesado%20en%20la%20finca%20en%20venta%20cerca%20a%20Uribe."
+                    href="https://wa.me/573244490660?text=Hola%2C%20estoy%20interesado%20en%20la%20finca%20en%20venta%20cerca%20a%20Uribe."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-green-800 font-bold text-xl py-4 px-10 rounded-full inline-flex items-center gap-3 hover:bg-green-100 transition-colors duration-300 shadow-xl transform hover:scale-105"
