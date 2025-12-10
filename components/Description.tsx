@@ -1,7 +1,11 @@
 
 import React from 'react';
 
-const Description: React.FC = () => {
+interface DescriptionProps {
+    onImageClick: (src: string) => void;
+}
+
+const Description: React.FC<DescriptionProps> = ({ onImageClick }) => {
     return (
         <section className="py-20 bg-white">
             <div className="container mx-auto px-6">
@@ -33,9 +37,16 @@ const Description: React.FC = () => {
                             <h4 className="font-bold text-gray-800 flex items-center gap-2">
                                 <i className="fas fa-video text-red-600"></i> Tecnología y Seguridad
                             </h4>
-                            <p className="text-gray-700 mt-1">
+                            <p className="text-gray-700 mt-1 mb-3">
                                 La propiedad cuenta con un <strong>completo sistema de vigilancia de 15 cámaras</strong> de seguridad instaladas. Usted podrá tener control visual total de los accesos, los cultivos y las instalaciones desde la comodidad de la casa principal, garantizando tranquilidad para su inversión y su familia.
                             </p>
+                            <img 
+                                src="/images/sistema-seguridad.jpeg" 
+                                alt="Sistema de cámaras de seguridad" 
+                                className="w-full h-48 object-cover rounded-lg shadow-md cursor-pointer hover:opacity-90 transition-opacity"
+                                onClick={() => onImageClick('/images/sistema-seguridad.jpeg')}
+                            />
+                            <p className="text-xs text-gray-500 mt-2 italic text-center">Click en la imagen para ampliar</p>
                         </div>
 
                         <p className="text-gray-600 mb-4 text-lg">

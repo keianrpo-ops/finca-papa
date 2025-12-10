@@ -19,7 +19,7 @@ const App: React.FC = () => {
             <main>
                 <Hero />
                 <Features />
-                <Description />
+                <Description onImageClick={setSelectedImage} />
                 <Gallery images={images} onImageClick={setSelectedImage} />
                 <Contact />
             </main>
