@@ -5,16 +5,16 @@ export interface ImageData {
 }
 
 export const images: ImageData[] = [
-    { src: 'https://i.imgur.com/2b3wQ7r.jpg', alt: 'Vista panorámica de la casa principal con techo rojo' },
-    { src: 'https://i.imgur.com/eB3sYp4.jpg', alt: 'Corredor interior con materas y baranda de colores' },
-    { src: 'https://i.imgur.com/7gH0m3E.jpg', alt: 'Balcón con mesa de madera y vista a la naturaleza' },
-    { src: 'https://i.imgur.com/tZlOqYv.jpg', alt: 'Fachada de la casa con corredor amplio' },
-    { src: 'https://i.imgur.com/aJ3n0i8.jpg', alt: 'Vista del paisaje montañoso desde la finca' },
-    { src: 'https://i.imgur.com/oVj3k7L.jpg', alt: 'Cultivo de plátano en la finca' },
-    { src: 'https://i.imgur.com/x0qXvFq.jpg', alt: 'Vista del terreno con cultivos de plátano y árboles frutales' },
-    { src: 'https://i.imgur.com/W2d4gL7.jpg', alt: 'Extenso cultivo de plátano en la ladera de la montaña' },
-    { src: 'https://i.imgur.com/eI1z2V3.jpg', alt: 'Bodega o estructura de almacenamiento exterior' },
-    { src: 'https://i.imgur.com/L1dF1iW.jpg', alt: 'Cocina rústica con estantería de madera y mesón de azulejos' },
-    { src: 'https://i.imgur.com/mYg2f1V.jpg', alt: 'Habitación con camarote de madera y armario' },
-    { src: 'https://i.imgur.com/uI6m1sB.jpg', alt: 'Otra vista de la habitación con televisión en la pared' },
+    { src: '/images/vista-casa-ppal.jpeg', alt: 'Vista aérea de la casa principal con techo rojo' },
+    { src: '/images/lateral-entrada.jpeg', alt: 'Entrada lateral de la casa con corredor y jardín' },
+    { src: '/images/lateral-pasillo.jpeg', alt: 'Pasillo lateral de la casa con baranda de colores' },
+    { src: '/images/cocina.jpeg', alt: 'Cocina con estantería abierta y mesón' },
+    { src: '/images/piesa-1.jpeg', alt: 'Habitación con camarote de madera y armario' },
+    { src: '/images/piesa-2.jpeg', alt: 'Habitación con cama doble, televisor y ventana' },
+    { src: '/images/cultivo-1.jpeg', alt: 'Cultivo de plátano en un día soleado' },
+    { src: '/images/cultivo-2.jpeg', alt: 'Vista del terreno con cultivos de plátano' },
+    { src: '/images/cultivo-3.jpeg', alt: 'Paisaje montañoso con cultivos en la ladera' },
+    { src: '/images/vista-carretera.jpeg', alt: 'Vista panorámica del paisaje desde la carretera de acceso' },
+    { src: '/images/mirador-cocina.jpeg', alt: 'Mirador o balcón con baranda de colores y vista al exterior' },
+    { src: '/images/lateral-trasera.jpeg', alt: 'Vista de la parte trasera de la propiedad con zona de trabajo' },
 ];

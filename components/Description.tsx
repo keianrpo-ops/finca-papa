@@ -8,8 +8,8 @@ const Description: React.FC = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     <div className="lg:w-1/2 w-full">
                         <img 
-                            src="https://i.imgur.com/aJ3n0i8.jpg" 
-                            alt="Paisaje de la finca"
+                            src="/images/vista-carretera.jpeg" 
+                            alt="Paisaje montañoso de la finca"
                             className="rounded-xl shadow-2xl w-full h-auto object-cover"
                         />
                     </div>

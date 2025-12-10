@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
     return (
         <section 
             className="relative h-screen bg-cover bg-center flex items-center justify-center text-white" 
-            style={{ backgroundImage: "url('https://i.imgur.com/2b3wQ7r.jpg')" }}
+            style={{ backgroundImage: "url('/images/vista-casa-ppal.jpeg')" }}
         >
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             <div className="relative z-10 text-center px-4">
