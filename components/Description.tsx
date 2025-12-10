@@ -14,9 +14,16 @@ const Description: React.FC = () => {
                         />
                     </div>
                     <div className="lg:w-1/2 w-full">
-                        <h2 className="text-4xl font-extrabold text-gray-800 mb-4">Un Negocio Rentable y un Hogar Soñado</h2>
+                        <div className="bg-green-50 border-l-8 border-green-600 p-6 rounded-r-lg shadow-sm mb-8">
+                            <h3 className="text-xl font-bold text-green-800 uppercase tracking-wide mb-1">Extensión Total del Terreno</h3>
+                            <p className="text-4xl font-extrabold text-green-700">
+                                12.5 Cuadras <span className="text-2xl font-normal text-gray-600 block sm:inline"> (8 Hectáreas)</span>
+                            </p>
+                        </div>
+
+                        <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Un Negocio Rentable y un Hogar Soñado</h2>
                         <p className="text-gray-600 mb-4 text-lg">
-                            Esta finca de <strong>11 cuadras</strong>, ubicada estratégicamente cerca de Uribe, Valle, es una joya agrícola en plena producción. No es solo tierra; es una empresa funcionando. Cuenta con una impresionante variedad de cultivos establecidos: <strong>600 árboles de Cacao</strong>, <strong>500 árboles de Naranja</strong> (más 50 matas adicionales), <strong>400 de Mandarina</strong>, 20 de Limón y un cultivo tecnificado de <strong>800 matas de Pitaya</strong>.
+                            Ubicada estratégicamente a pocos kilómetros de Uribe, Valle, esta finca es una joya agrícola en plena producción. No es solo tierra; es una empresa funcionando. Cuenta con una impresionante variedad de cultivos establecidos: <strong>600 árboles de Cacao</strong>, <strong>500 árboles de Naranja</strong> (más 50 matas adicionales), <strong>400 de Mandarina</strong>, 20 de Limón y un cultivo tecnificado de <strong>800 matas de Pitaya</strong>.
                         </p>
                         <p className="text-gray-600 mb-4 text-lg">
                             La seguridad hídrica es total, contando con <strong>agua propia de nacimiento</strong> y agua de acueducto. Además de la agricultura, la finca está equipada para la explotación pecuaria: posee un <strong>lago de peces productivo</strong>, marraneras, galpones y potreros con pasto suficiente para sostener entre 5 y 7 cabezas de ganado.

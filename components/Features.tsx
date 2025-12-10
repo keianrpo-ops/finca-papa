@@ -29,8 +29,8 @@ const Features: React.FC = () => {
                     <FeatureCard icon="fas fa-piggy-bank" title="Instalaciones Pecuarias">
                         Infraestructura lista: Marraneras, galpones para aves, potreros para 5-7 animales y lago de peces productivo.
                     </FeatureCard>
-                    <FeatureCard icon="fas fa-house-chimney-window" title="Vivienda y Terreno">
-                        11 Cuadras de tierra fértil con casa principal cómoda, cocina amplia, habitaciones múltiples y miradores.
+                    <FeatureCard icon="fas fa-ruler-combined" title="Gran Extensión">
+                        12.5 Cuadras (8 Hectáreas) de tierra fértil con casa principal cómoda, cocina amplia, habitaciones y miradores.
                     </FeatureCard>
                 </div>
             </div>

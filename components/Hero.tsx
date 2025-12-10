@@ -23,10 +23,10 @@ const Hero: React.FC = () => {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 drop-shadow-lg">
                     Su Paraíso Productivo en el Corazón del Valle
                 </h1>
-                <p className="text-xl md:text-2xl mb-6 font-light drop-shadow-md">
-                    11 Cuadras de oportunidades, naturaleza y un futuro próspero le esperan.
+                <p className="text-xl md:text-3xl mb-8 font-light drop-shadow-md text-green-100">
+                    <span className="font-bold text-white bg-green-700 bg-opacity-80 px-4 py-1 rounded">12.5 Cuadras (8 Hectáreas)</span> de tierra fértil y futuro próspero le esperan.
                 </p>
-                <div className="bg-white text-gray-900 font-bold text-3xl md:text-4xl py-3 px-8 rounded-lg inline-block mb-8 shadow-2xl">
+                <div className="bg-white text-gray-900 font-bold text-3xl md:text-4xl py-3 px-8 rounded-lg inline-block mb-8 shadow-2xl border-4 border-green-600">
                     $800,000,000 COP
                 </div>
                 <div>
