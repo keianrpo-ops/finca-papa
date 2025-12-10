@@ -41,10 +41,10 @@ const Description: React.FC<DescriptionProps> = ({ onImageClick }) => {
                                 La propiedad cuenta con un <strong>completo sistema de vigilancia de 15 cámaras</strong> de seguridad instaladas. Usted podrá tener control visual total de los accesos, los cultivos y las instalaciones desde la comodidad de la casa principal, garantizando tranquilidad para su inversión y su familia.
                             </p>
                             <img 
-                                src="/images/sistema-seguridad.jpeg" 
+                                src="/images/sistemavcc.jpeg" 
                                 alt="Sistema de cámaras de seguridad" 
-                                className="w-full h-48 object-cover rounded-lg shadow-md cursor-pointer hover:opacity-90 transition-opacity"
-                                onClick={() => onImageClick('/images/sistema-seguridad.jpeg')}
+                                className="w-full h-64 object-cover rounded-lg shadow-md cursor-pointer hover:opacity-90 transition-opacity"
+                                onClick={() => onImageClick('/images/sistemavcc.jpeg')}
                             />
                             <p className="text-xs text-gray-500 mt-2 italic text-center">Click en la imagen para ampliar</p>
                         </div>

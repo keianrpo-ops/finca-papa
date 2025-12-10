@@ -34,7 +34,7 @@ export const images: ImageData[] = [
     { src: '/images/cultivo-distancia.jpeg', alt: 'Vista de los cultivos a la distancia', category: 'cultivos' },
 
     // Instalaciones y Agua
-    { src: '/images/sistema-seguridad.jpeg', alt: 'Sistema de monitoreo CCTV con 15 cámaras', category: 'instalaciones' },
+    { src: '/images/sistemavcc.jpeg', alt: 'Sistema de monitoreo CCTV con 15 cámaras', category: 'instalaciones' },
     { src: '/images/lago-toma1.jpeg', alt: 'Lago de peces productivo - Vista 1', category: 'instalaciones' },
     { src: '/images/lago-toma2.jpeg', alt: 'Lago de peces productivo - Vista 2', category: 'instalaciones' },
     { src: '/images/galpones-1.jpeg', alt: 'Galpones para aves', category: 'instalaciones' },
