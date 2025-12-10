@@ -7,7 +7,7 @@ const FeatureCard: React.FC<{ icon: string; title: string; children: React.React
             <i className={icon}></i>
         </div>
         <h3 className="text-2xl font-bold text-gray-800 mb-2">{title}</h3>
-        <p className="text-gray-600 text-sm md:text-base">{children}</p>
+        <p className="text-gray-600 text-sm md:text-base leading-relaxed">{children}</p>
     </div>
 );
 
@@ -21,7 +21,7 @@ const Features: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <FeatureCard icon="fas fa-tree" title="Alta Producción Frutal">
-                        400 Árboles de Naranja, 40 de Mandarina, 600 de Cacao, 20 de Limón y 800 matas de Pitaya listas para cosecha.
+                        Gran inventario agrícola: <strong>5.000 matas de Plátano</strong>, <strong>600 árboles de Cacao</strong>, <strong>400 de Naranja</strong>, <strong>40 de Mandarina</strong>, <strong>20 de Limón</strong>, cultivos de <strong>Aguacate</strong> y <strong>800 matas de Pitaya</strong> listas para cosecha.
                     </FeatureCard>
                     <FeatureCard icon="fas fa-water" title="Abundancia de Agua">
                         Agua propia de nacimiento y servicio de acueducto. Garantía hídrica para cultivos, animales y consumo.

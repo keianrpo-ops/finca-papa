@@ -23,7 +23,10 @@ const Description: React.FC = () => {
 
                         <h2 className="text-3xl font-extrabold text-gray-800 mb-4">Un Negocio Rentable y un Hogar Soñado</h2>
                         <p className="text-gray-600 mb-4 text-lg">
-                            Ubicada estratégicamente a pocos kilómetros de Uribe, Valle, esta finca es una joya agrícola en plena producción. No es solo tierra; es una empresa funcionando. Cuenta con una impresionante variedad de cultivos establecidos: <strong>600 árboles de Cacao</strong>, <strong>500 árboles de Naranja</strong> (más 50 matas adicionales), <strong>400 de Mandarina</strong>, 20 de Limón y un cultivo tecnificado de <strong>800 matas de Pitaya</strong>.
+                            Ubicada estratégicamente a pocos kilómetros de Uribe, Valle, esta finca es una joya agrícola en plena producción. No es solo tierra; es una empresa funcionando. Cuenta con una impresionante variedad de cultivos establecidos, destacándose <strong>5.000 matas de Plátano</strong> y <strong>600 árboles de Cacao</strong>.
+                        </p>
+                        <p className="text-gray-600 mb-4 text-lg">
+                            La riqueza frutal incluye <strong>400 árboles de Naranja</strong>, <strong>40 de Mandarina</strong>, <strong>20 de Limón</strong>, cultivos de <strong>Aguacate</strong> y un cultivo tecnificado de <strong>800 matas de Pitaya</strong>.
                         </p>
                         <p className="text-gray-600 mb-4 text-lg">
                             La seguridad hídrica es total, contando con <strong>agua propia de nacimiento</strong> y agua de acueducto. Además de la agricultura, la finca está equipada para la explotación pecuaria: posee un <strong>lago de peces productivo</strong>, marraneras, galpones y potreros con pasto suficiente para sostener entre 5 y 7 cabezas de ganado.
